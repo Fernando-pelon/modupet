@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Zen+Tokyo+Zoo&display=swap');
 footer{
     text-align: center;
     padding: 20px;
@@ -29,4 +30,34 @@ nav a{
 }
 nav li{
     text-decoration: none;
+}
+body{
+    font-family: "Varela Round", sans-serif;
+}
+main{
+    text-align: center;
+}
+.promociones{
+        max-width: 300px;
+        margin: 20px auto;
+        padding: 20px 20px;
+        border-radius: 10px; 
+        background-color: #c7c7c7; 
+        text-align: center;   
+        max-width: 600px;
+        max-height: 500px;
+}
+.iprom{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 250px;
+}
+.contenido{
+    justify-content: flex-end;
+}
+.pgrande{
+    font-size: larger;
+    font-weight: bold;
+    width: 280px;
 }
