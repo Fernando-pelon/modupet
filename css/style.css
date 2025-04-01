@@ -1,63 +1,232 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Zen+Tokyo+Zoo&display=swap');
-footer{
-    text-align: center;
-    padding: 20px;
-    background-color: #424242;
-}
-footer p{
-    color: white;
-}
-.titulo{
-    font-family: "Zen Tokyo Zoo", system-ui;
-    font-weight: 400;
-    width: 500px;
-}
-nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #7c7c7c;
-    font-size: 19px;
-}
-.logo{
-    width: 200px;
-    border-radius: 100%;
-}
-nav a{
-    text-decoration: none;
-    color: white;
-}
-nav li{
-    text-decoration: none;
-}
-body{
+/* Importación de fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* Estilo general del cuerpo */
+body {
     font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-main{
+
+/* Encabezado principal */
+.header {
+    background: #7c7c7c;
+    color: white;
+    padding: 40px;
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.promociones{
-        max-width: 300px;
-        margin: 20px auto;
-        padding: 20px 20px;
-        border-radius: 10px; 
-        background-color: #c7c7c7; 
-        text-align: center;   
-        max-width: 600px;
-        max-height: 500px;
+.header img {
+    max-height: 80px;
+    margin-right: 10px;
 }
-.iprom{
+
+/* Contenedor del menú */
+.menu-container {
+    position: relative;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    background: #424242;
+    padding: 25px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.menu-logo {
+    position: absolute;
+    top: -150px;
+    left: 150px;
+}
+
+/* Sección de promociones */
+.promo {
+    text-align: center;
+    margin: 20px 0;
+}
+.promo-images {
     display: flex;
     justify-content: flex-start;
-    position: absolute;
-    width: 250px;
+    align-items: flex-end;
+    margin: 50px 0;
 }
-.contenido{
-    justify-content: flex-end;
+.promo-images img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 20px;
 }
-.pgrande{
-    font-size: larger;
+
+/* Pie de página */
+footer {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: -50px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    margin-left: 600px;
+    margin-right: 600px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0px 5px 10px #ccc;
+    background-color: #424242;
+    color: #fff; 
+}
+.card-content {
+    padding: 10px;
+}
+.card-img {
+    padding-right: 200px;
+    margin-right: 10px;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 5px 10px #202020;
+}
+.tarjetas {
+    display: flex;
+}
+
+/* Estilo de imágenes y botones */
+.mas {
+    width: 350px;
+    height: 230px;
+}
+.botom {
+    background-color: #CFD2CD;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+.P1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -300px;
+}
+.P2 {
+    display: flex;
+    background-color: #C7C7C7;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.pasa {
+    margin-bottom: 100px;
+    width: 300px;
+}
+.opa {
+    margin: 25px;
+}
+.card1 {
+    position: relative; 
+    right: 100px;
+}
+
+/* Estilo del formulario */
+.forma-contenedor {
+    max-width: 400px;
+    margin: auto;
+    background: rgb(41, 41, 41);
+    border-radius: 8px;
+    padding: 45px;
+    padding-right: 550px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 350px;
+}
+.conte {
+    margin-bottom: -300px;
+}
+.forma-contenedor h2 {
+    text-align: center;
+    color: #fffdfd;
+}
+.forma-uno {
+    margin-bottom: 15px;
+}
+.forma-dos {
+    background-color: #fbfbfb;
+    border-radius: 3px;
+    border: solid #ccc 2.5px;
+    color: rgb(0, 0, 0);
+}
+label {
+    display: block;
     font-weight: bold;
-    width: 280px;
+    margin-bottom: 5px;
+    color: #fff;
 }
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+button {
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #657281;
+}
+
+/* Contenedor para subir fotos */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 150px;
+    background-color: #fff;
+    padding: 120px;
+    border-radius: 5px;
+}
+.imgperro {
+    display: flex;
+    position: relative; 
+    top: -678px;
+    width: 360px;
+    margin-left: 850px;
+}
+
+/* Estilo de columnas */
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+.textono {
+    color: #000;
+}
+
