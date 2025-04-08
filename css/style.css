@@ -9,6 +9,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    position: relative;
+    min-height: 100vh;
 }
 
 /* Encabezado principal */
@@ -73,6 +75,7 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: -50px;
+    
 }
 
 /* Estilo de las tarjetas */
@@ -247,7 +250,7 @@ button:hover {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 40%;
+    width: 35%;
 }
 
 .contact-info .chat, .contact-info .tienda {
@@ -310,6 +313,7 @@ button:hover {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 .contact-form button:hover {
@@ -323,12 +327,12 @@ button:hover {
     
 }
 .CF {
-    position: relative; top: -200px;
-    right: 990px;
+    position: relative; top: 650px;
+    margin-top: -300px;
     
     
 }
 
 .futel {
-    margin-top: -300px;	
+    margin-top: -498.5px;
 }

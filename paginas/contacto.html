@@ -20,7 +20,7 @@
         </div>
         <!-- Menú de navegación -->
         <div class="menu">
-          <a href="index.html">Inicio</a>
+          <a href="../index.html">Inicio</a>
           <a href="contacto.html">Contacto</a>
           <a href="productos.html">Productos</a>
           <a href="informacion.html">Información de mascota</a>
@@ -28,15 +28,18 @@
         </div>
       </div>
 
+      <!-- Sección principal de la página -->
+      <img src="../img/Chucho fort.png" alt="fort" class="CF" />
       <main class="mainC">
         <div class="containe">
+          <!-- Información de contacto -->
           <div class="contact-info">
             <div class="chat">
-              <img src="" alt="Chat en línea" />
+              <img src="../img/chat enli.png" alt="Chat en línea" />
               <p>Chat en línea</p>
             </div>
             <div class="tienda">
-              <img src="" alt="Nuestra tienda" />
+              <img src="../img/nuestra tien.png" alt="Nuestra tienda" />
               <p>Nuestra tienda</p>
             </div>
             <div class="telefonos">
@@ -47,21 +50,26 @@
             </div>
           </div>
         </div>
+        <!-- Imagen decorativa -->
         <img src="../img/CHUCHO MANO.png" alt="cm" class="CM" />
       </main>
 
+      <!-- Formulario de contacto -->
       <div class="contact-form">
         <h4>
           Si prefieres puedes enviarnos un mensaje completando la siguiente
           información:
         </h4>
         <form action="#" method="post">
+          <!-- Campo para el nombre -->
           <label for="nombre">Nombre</label>
           <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
 
+          <!-- Campo para el correo electrónico -->
           <label for="email">Email</label>
           <input type="email" id="email" name="email" placeholder="Email" />
 
+          <!-- Campo para el teléfono -->
           <label for="telefono">Teléfono</label>
           <input
             type="tel"
@@ -71,6 +79,7 @@
             value="+503"
           />
 
+          <!-- Campo para el mensaje -->
           <label for="mensaje">Mensaje</label>
           <textarea
             id="mensaje"
@@ -78,17 +87,19 @@
             placeholder="Mensaje"
           ></textarea>
 
+          <!-- Captcha para verificar que no es un robot -->
           <div class="captcha">
             <input type="checkbox" id="robot" name="robot" />
             <label for="robot">No soy un robot</label>
           </div>
 
+          <!-- Botón para enviar el formulario -->
           <button type="submit">Enviar</button>
         </form>
       </div>
 
       <!-- Pie de página con información de contacto -->
-      <footer>
+      <footer class="futel">
         <p><strong>Contáctanos</strong></p>
         <p>Call Center: 2258-7458</p>
         <p>Dirección: Prolongación 59 AV Sur y calle El Progreso 2934.</p>
