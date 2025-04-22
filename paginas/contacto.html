@@ -23,8 +23,8 @@
           <a href="../index.html">Inicio</a>
           <a href="contacto.html">Contacto</a>
           <a href="productos.html">Productos</a>
-          <a href="informacion.html">Información de mascota</a>
           <a href="cita.html">Agendar cita</a>
+          <a href="informacion.html">Información de mascota</a>
         </div>
       </div>
 
@@ -62,34 +62,56 @@
         </h4>
         <form action="#" method="post">
           <!-- Campo para el nombre -->
-          <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingresa tu nombre"
+              required
+            />
+          </div>
 
           <!-- Campo para el correo electrónico -->
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Email" />
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingresa tu correo electrónico"
+              required
+            />
+          </div>
 
           <!-- Campo para el teléfono -->
-          <label for="telefono">Teléfono</label>
-          <input
-            type="tel"
-            id="telefono"
-            name="telefono"
-            placeholder="Teléfono"
-            value="+503"
-          />
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Ingresa tu número de teléfono"
+              required
+            />
+          </div>
 
           <!-- Campo para el mensaje -->
-          <label for="mensaje">Mensaje</label>
-          <textarea
-            id="mensaje"
-            name="mensaje"
-            placeholder="Mensaje"
-          ></textarea>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              placeholder="Escribe tu mensaje aquí"
+              rows="4"
+              required
+            ></textarea>
+          </div>
 
           <!-- Captcha para verificar que no es un robot -->
-          <div class="captcha">
-            <input type="checkbox" id="robot" name="robot" />
+          <div class="form-group captcha">
+            <input type="checkbox" id="robot" name="robot" required />
             <label for="robot">No soy un robot</label>
           </div>
 

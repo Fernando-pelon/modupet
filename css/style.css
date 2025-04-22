@@ -337,3 +337,241 @@ button:hover {
     margin-top: -498.5px;
 }
 
+
+/* Media Queries para diseño responsivo */
+/* El logo tapa la barra de navegacion en los tamaños más pequeños */
+@media (max-width: 1200px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tarjetas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    margin: 20px;
+    width: 45%;
+  }
+  .contact-info, .contact-form {
+    width: 90%;
+    margin: auto;
+  }
+  .forma-contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+  }
+  .promo-images img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  .contact-form {
+    width: 80%;
+    margin: auto;
+  }
+  .CF, .CM {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .form-group{
+    padding-bottom: 20px;
+  }
+
+    .contact-form{
+    width: 50%;
+    padding: 30px;
+    position: relative; left: -10px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+    margin-top: -220px;
+  }
+  .mainC{
+    padding-bottom: 650px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .header{
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 768px;
+    width: 80%;
+  }
+  .menu {
+    padding: 20px;
+    padding-left: 768px;
+    width: 80%;
+  }
+  .menu a {
+    margin: 10px 0;
+  }
+  .tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .contact-form {
+    padding: 20px;
+    width: 90%;
+  }
+  .promo-images img {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .forma-contenedor {
+    width: 90%;
+    padding-right: 520px;
+  }
+  .CM, .CF {
+    position: static;
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+    width: 90%;
+  }
+  .promo-images img, .CF, .CM {
+    margin: 20px auto;
+  }
+
+  .imgperro {
+   position: relative; left: 320px;
+    margin: 20px auto;
+  }
+
+  .P1 {
+    margin: auto;
+    padding: auto;
+  }
+  .tarjetas{
+    align-items: center;
+    width: 60%;
+    height: 200%;
+    margin-bottom: 40px;
+    margin-left: 20%;
+  }
+  .contact-form{
+    width: 50%;
+    padding: 30px;
+    position: relative; left: -10px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+    margin-top: -200px;
+  }
+  .mainC{
+    padding-bottom: 650px;
+  }
+  .forma-contenedor {
+    padding: 60px;
+    width: 50%;
+    margin: 20px;
+    padding-right: 530px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 200px;
+    padding-bottom: 70px;
+    width: 45%;
+  }
+  .header img {
+    max-width: 100%;
+  }
+  .menu {
+    padding: 20px;
+    padding-left: 200px;
+    width: 45%;
+  }
+  .menu a {
+    font-size: 14px;
+    
+  }
+  .card {
+    width: 100%;
+  }
+  .contact-info {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .contact-form {
+    padding: 10px;
+    width: 100%;
+  }
+  .promo h1 {
+    font-size: 24px;
+  }
+  .botom {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .forma-contenedor {
+    padding: 60px;
+    width: auto;
+  }
+  .imgperro {
+    width: 80%;
+    margin: auto;
+    position: relative; left: -30px; top: -661px;
+    
+  }
+  .contenedor {
+    margin: 20px auto;
+    width: auto;
+    padding: 100px;
+    margin-top: 200px;
+  }
+  .promo-images img, .imgperro, .CF, .CM {
+    margin: 10px auto;
+  }
+
+  .menu-logo{
+    width: 20%;
+  }
+  .P1 {
+    width: auto;
+  }
+  .P2 {
+
+    width: auto;
+  }
+  .tarjetas{
+    width: 80%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+  }
+  .CF, .CM {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .contact-form{
+    width: 50%;
+    padding: 20px;
+    position: relative; left: -10px;
+    padding-right: 40px;
+    padding-bottom: 95px;
+    margin-top: -130px;
+  }
+  .mainC{
+    padding-bottom: 650px;
+  }
+}
+
