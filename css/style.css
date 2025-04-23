@@ -353,10 +353,7 @@ button:hover {
     margin: 20px;
     width: 45%;
   }
-  .contact-info, .contact-form {
-    width: 90%;
-    margin: auto;
-  }
+
   .forma-contenedor {
     margin-left: auto;
     margin-right: auto;
@@ -372,10 +369,7 @@ button:hover {
     width: 80%;
     margin: auto;
   }
-  .contact-form {
-    width: 80%;
-    margin: auto;
-  }
+
   .CF, .CM {
     width: 80%;
     margin: 20px auto;
@@ -385,7 +379,7 @@ button:hover {
   }
 
     .contact-form{
-    width: 50%;
+    width: 60%;
     padding: 30px;
     position: relative; left: -10px;
     padding-right: 40px;
@@ -396,19 +390,48 @@ button:hover {
     padding-bottom: 650px;
   }
 
+
 }
 
 @media (max-width: 768px) {
   .header{
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .header img {
+    max-height: 60px;
+    margin: 0 auto;
+    margin-left: 200px;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  .menu a {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .menu-logo img {
+    max-width: 120px;
+    margin: 70px auto;
+    margin-left: -140px;
+  }
+  .header{
     font-size: 18px;
     padding: 20px;
-    padding-left: 768px;
     width: 80%;
+    padding-right: 134px;
   }
   .menu {
     padding: 20px;
-    padding-left: 768px;
     width: 80%;
+    padding-right: 134px;
   }
   .menu a {
     margin: 10px 0;
@@ -429,6 +452,8 @@ button:hover {
   .contact-form {
     padding: 20px;
     width: 90%;
+    margin: 0 auto; 
+    position: static; 
   }
   .promo-images img {
     width: 90%;
@@ -443,9 +468,9 @@ button:hover {
     margin: 20px auto;
     display: block;
     max-width: 100%;
-    width: 90%;
+    width: 60%; 
   }
-  .promo-images img, .CF, .CM {
+  .promo-images img, .CM {
     margin: 20px auto;
   }
 
@@ -468,7 +493,7 @@ button:hover {
   .contact-form{
     width: 50%;
     padding: 30px;
-    position: relative; left: -10px;
+    position: relative; left: -5px;
     padding-right: 40px;
     padding-bottom: 150px;
     margin-top: -200px;
@@ -489,11 +514,12 @@ button:hover {
     font-size: 18px;
     padding: 20px;
     padding-left: 200px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     width: 45%;
   }
   .header img {
-    max-width: 100%;
+    max-width: 240px;
+    margin-left: -65px;
   }
   .menu {
     padding: 20px;
@@ -513,8 +539,16 @@ button:hover {
     text-align: center;
   }
   .contact-form {
-    padding: 10px;
-    width: 100%;
+    padding: 15px;
+    width: 100%; 
+    margin: 20px auto; 
+    position: relative; 
+    top: 0; 
+  }
+  .contact-form button {
+    width: 100%; 
+    margin: 10px 0; 
+    display: block; 
   }
   .promo h1 {
     font-size: 24px;
@@ -530,7 +564,7 @@ button:hover {
   .imgperro {
     width: 80%;
     margin: auto;
-    position: relative; left: -30px; top: -661px;
+    position: relative; left: -5px; top: -600px;
     
   }
   .contenedor {
@@ -571,7 +605,7 @@ button:hover {
     margin-top: -130px;
   }
   .mainC{
-    padding-bottom: 650px;
+    padding-bottom: 0; 
   }
 }
 
